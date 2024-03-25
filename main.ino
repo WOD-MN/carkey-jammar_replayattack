@@ -118,7 +118,7 @@
 #define CC1101_DEFVAL_SYNC1      0xAA        // Synchronization word, high byte AB
 #define CC1101_DEFVAL_SYNC0      0x00        // Synchronization word, low byte  FC
 
-#define CC1101_DEFVAL_PKTLEN     0x19       // Packet Length                               FF
+#define CC1101_DEFVAL_PKTLEN     0x19       // Packet Length                              
 #define CC1101_DEFVAL_PKTCTRL1   0x04        // Packet Automation Control
 #define CC1101_DEFVAL_PKTCTRL0   0x04        // Packet Automation Control
 
@@ -131,38 +131,38 @@
 //RX RF 1 Carrier frequency RX = 433.795 MHz ---------------------------------------------
 //#define CC1101_DEFVAL_FREQ2_433  0x10      // Frequency Control Word, High Byte
 //#define CC1101_DEFVAL_FREQ1_433  0xAF      // Frequency Control Word, Middle Byte
-//#define CC1101_DEFVAL_FREQ0_433  0xC1      // Frequency Control Word, Low Byte               38   
+//#define CC1101_DEFVAL_FREQ0_433  0xC1      // Frequency Control Word, Low Byte               
 
 // RX RF 2 Carrier frequency RX = 433.925 MHz ---------------used---------------------------
 //#define CC1101_DEFVAL_FREQ2_433  0x10        // Frequency Control Word, High Byte
 //#define CC1101_DEFVAL_FREQ1_433  0xB0        // Frequency Control Word, Middle Byte
-//#define CC1101_DEFVAL_FREQ0_433  0xB3        // Frequency Control Word, Low Byte               38
+//#define CC1101_DEFVAL_FREQ0_433  0xB3        // Frequency Control Word, Low Byte               
 
-// RX RF 2 Carrier frequency RX = 433.967834 MHz ---------------used---------------------------
-#define CC1101_DEFVAL_FREQ2_433  0x10        // Frequency Control Word, High Byte
-#define CC1101_DEFVAL_FREQ1_433  0xB0        // Frequency Control Word, Middle Byte
-#define CC1101_DEFVAL_FREQ0_433  0xEA        // Frequency Control Word, Low Byte               38
+// Carrier frequency = 431.958 MHz
+#define CC1101_DEFVAL_FREQ2_433  0x6D        // Frequency Control Word, High Byte
+#define CC1101_DEFVAL_FREQ1_433  0x12        // Frequency Control Word, Middle Byte
+#define CC1101_DEFVAL_FREQ0_433  0x0D        // Frequency Control Word, Low Byte               
 
 // RX RF 2 Carrier frequency RX = 433.85 MHz ---------------used---------------------------
 //#define CC1101_DEFVAL_FREQ2_433  0x10        // Frequency Control Word, High Byte
 //#define CC1101_DEFVAL_FREQ1_433  0xAF        // Frequency Control Word, Middle Byte
-//#define CC1101_DEFVAL_FREQ0_433  0xC1        // Frequency Control Word, Low Byte               38
+//#define CC1101_DEFVAL_FREQ0_433  0xC1        // Frequency Control Word, Low Byte              
 
 //JAMMER RF 1 Carrier frequency Jammer --------------------------------------------------------
 //#define CC1101_DEFVAL_FREQ2_433_JAMMER  0x10   // Frequency Control Word, High Byte
 //#define CC1101_DEFVAL_FREQ1_433_JAMMER  0xAC   // Frequency Control Word, Middle Byte
-//#define CC1101_DEFVAL_FREQ0_433_JAMMER  0x4E   // Frequency Control Word, Low Byte               38   
+//#define CC1101_DEFVAL_FREQ0_433_JAMMER  0x4E   // Frequency Control Word, Low Byte                
 
 // JAMMER RF 2 Carrier frequency jammer = 433.795 MHz ------------used---------------
 #define CC1101_DEFVAL_FREQ2_433_JAMMER  0x10      // Frequency Control Word, High Byte
 #define CC1101_DEFVAL_FREQ1_433_JAMMER  0xAF      // Frequency Control Word, Middle Byte
-#define CC1101_DEFVAL_FREQ0_433_JAMMER  0xC1      // Frequency Control Word, Low Byte               38   
+#define CC1101_DEFVAL_FREQ0_433_JAMMER  0xC1      // Frequency Control Word, Low Byte                
 
 #define CC1101_DEFVAL_MDMCFG4    0xF6        // Modem Configuration
-#define CC1101_DEFVAL_MDMCFG3    0x9F        // Modem Configuration                          C3
+#define CC1101_DEFVAL_MDMCFG3    0x9F        // Modem Configuration                         
 #define CC1101_DEFVAL_MDMCFG2    0x32        // Modem Configuration
-#define CC1101_DEFVAL_MDMCFG1    0x02        // Modem Configuration       02                  ??????????????
-#define CC1101_DEFVAL_MDMCFG0    0xF8        // Modem Configuration       F8
+#define CC1101_DEFVAL_MDMCFG1    0x02        // Modem Configuration       
+#define CC1101_DEFVAL_MDMCFG0    0xF8        // Modem Configuration      
 #define CC1101_DEFVAL_DEVIATN    0x15        // Modem Deviation Setting
 #define CC1101_DEFVAL_MCSM2      0x07        // Main Radio Control State Machine Configuration
 #define CC1101_DEFVAL_MCSM1      0x20        // Main Radio Control State Machine Configuration
@@ -186,9 +186,9 @@
 #define CC1101_DEFVAL_FSTEST     0x59        // Frequency Synthesizer Calibration Control
 #define CC1101_DEFVAL_PTEST      0x7F        // Production Test
 #define CC1101_DEFVAL_AGCTEST    0x3F        // AGC Test
-#define CC1101_DEFVAL_TEST2      0x88        // Various Test Settings                         88                   
-#define CC1101_DEFVAL_TEST1      0x35        // Various Test Settings                         31
-#define CC1101_DEFVAL_TEST0      0x0B        // Various Test Settings                         0b
+#define CC1101_DEFVAL_TEST2      0x88        // Various Test Settings                                          
+#define CC1101_DEFVAL_TEST1      0x35        // Various Test Settings                         
+#define CC1101_DEFVAL_TEST0      0x0B        // Various Test Settings                         
 
 /**
  * Macros
